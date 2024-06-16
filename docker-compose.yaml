@@ -8,7 +8,7 @@ services:
     image: alextrevis/nginx_fusion:v1
     container_name: nginx
     ports:
-      - "8500:80"
+      - "80:80"
     networks:
       - nwfusion
     depends_on:
