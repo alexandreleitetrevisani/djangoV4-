@@ -21,3 +21,7 @@ ETAPAS DO PROCESSO DE DEPLOY:
 7 - criando as tabelas lá na nuvem --> docker exec -it fusion1 python manage.py migrate
 
 8 - ver se a app está rodando com o IPV4 público disponível na internet     
+
+9 - após atribuição de domínio usando o serviço de gerenciamento de DNS da AWS chamado Route 53, acessar a app no endereço ""
+
+
